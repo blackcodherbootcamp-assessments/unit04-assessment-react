@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import { formatCurrency } from "../lib/utils.js";
 
-const Product = ({ item, key, addToBasket, removeFromBasket, ...props }) => {
+const Product = ({ item, addToBasket, removeFromBasket, ...props }) => {
   const { trackId, artworkUrl100, trackName, longDescription, trackPrice } =
     item;
 
