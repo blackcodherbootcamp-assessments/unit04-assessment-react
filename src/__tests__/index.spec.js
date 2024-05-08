@@ -3,31 +3,31 @@ import { readFile } from '../../.autograding/utils.js';
 
 describe("Application structure", () => {
   test("/src/components/Basket.js found", () => {
-    expect(readFile("/src/components/Basket.js")).toBeTruthy();
+    expect(readFile("/src/components/Basket.jsx")).toBeTruthy();
   });
 
   test("/src/components/BasketCount.js found", () => {
-    expect(readFile("/src/components/BasketCount.js")).toBeTruthy();
+    expect(readFile("/src/components/BasketCount.jsx")).toBeTruthy();
   });
 
   test("/src/components/BasketTotal.js found", () => {
-    expect(readFile("/src/components/BasketTotal.js")).toBeTruthy();
+    expect(readFile("/src/components/BasketTotal.jsx")).toBeTruthy();
   });
 
   test("/src/components/Header.js found", () => {
-    expect(readFile("/src/components/Header.js")).toBeTruthy();
+    expect(readFile("/src/components/Header.jsx")).toBeTruthy();
   });
 
   test("/src/components/Product.js found", () => {
-    expect(readFile("/src/components/Product.js")).toBeTruthy();
+    expect(readFile("/src/components/Product.jsx")).toBeTruthy();
   });
 
   test("/src/components/ProductList.js found", () => {
-    expect(readFile("/src/components/ProductList.js")).toBeTruthy();
+    expect(readFile("/src/components/ProductList.jsx")).toBeTruthy();
   });
 
   test("/src/components/Search.js found", () => {
-    expect(readFile("/src/components/Search.js")).toBeTruthy();
+    expect(readFile("/src/components/Search.jsx")).toBeTruthy();
   });
 
   test("/src/models/data.json found", () => {
@@ -35,6 +35,6 @@ describe("Application structure", () => {
   });
 
   test("/src/pages/About.js found", () => {
-    expect(readFile("/src/pages/About.js")).toBeTruthy();
+    expect(readFile("/src/pages/About.jsx")).toBeTruthy();
   });
 });
